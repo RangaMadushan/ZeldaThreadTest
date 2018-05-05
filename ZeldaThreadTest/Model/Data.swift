@@ -30,9 +30,12 @@ class Data {
         //ona nisa thami me sleep danne
         return data
         
-    }
+        
+        
+        
+    }//fun getData
     
-}
+}//class
 
 
 

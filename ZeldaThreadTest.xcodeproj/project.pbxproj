@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCC0C294209E451100AC89BA /* abstract.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCC0C293209E451100AC89BA /* abstract.jpg */; };
+		BCC0C296209E49F600AC89BA /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCC0C295209E49F600AC89BA /* bg.jpg */; };
 		BCFAC707208A8382001ACA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFAC706208A8382001ACA49 /* AppDelegate.swift */; };
 		BCFAC709208A8382001ACA49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFAC708208A8382001ACA49 /* ViewController.swift */; };
 		BCFAC70C208A8382001ACA49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFAC70A208A8382001ACA49 /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BCC0C293209E451100AC89BA /* abstract.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abstract.jpg; sourceTree = "<group>"; };
+		BCC0C295209E49F600AC89BA /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		BCFAC703208A8382001ACA49 /* ZeldaThreadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeldaThreadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFAC706208A8382001ACA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCFAC708208A8382001ACA49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +80,7 @@
 				BCFAC719208A83D1001ACA49 /* Model */,
 				BCFAC71E208A8430001ACA49 /* View */,
 				BCFAC71F208A8452001ACA49 /* Controller */,
-				BCFAC70A208A8382001ACA49 /* Main.storyboard */,
 				BCFAC70D208A8382001ACA49 /* Assets.xcassets */,
-				BCFAC70F208A8382001ACA49 /* LaunchScreen.storyboard */,
 				BCFAC712208A8382001ACA49 /* Info.plist */,
 			);
 			path = ZeldaThreadTest;
@@ -93,6 +95,8 @@
 				BCFAC721208A8868001ACA49 /* Revali.png */,
 				BCFAC724208A8868001ACA49 /* Urbosa.png */,
 				BCFAC725208A8868001ACA49 /* Zelda.png */,
+				BCC0C293209E451100AC89BA /* abstract.jpg */,
+				BCC0C295209E49F600AC89BA /* bg.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -109,6 +113,8 @@
 		BCFAC71E208A8430001ACA49 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BCFAC70A208A8382001ACA49 /* Main.storyboard */,
+				BCFAC70F208A8382001ACA49 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,9 +193,11 @@
 				BCFAC729208A8868001ACA49 /* Link.png in Resources */,
 				BCFAC70E208A8382001ACA49 /* Assets.xcassets in Resources */,
 				BCFAC727208A8868001ACA49 /* Revali.png in Resources */,
+				BCC0C294209E451100AC89BA /* abstract.jpg in Resources */,
 				BCFAC72B208A8868001ACA49 /* Zelda.png in Resources */,
 				BCFAC70C208A8382001ACA49 /* Main.storyboard in Resources */,
 				BCFAC726208A8868001ACA49 /* Epona.png in Resources */,
+				BCC0C296209E49F600AC89BA /* bg.jpg in Resources */,
 				BCFAC728208A8868001ACA49 /* Daruk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,6 +6,8 @@
 //  Copyright © 2018 Ranga Madushan. All rights reserved.
 //
 
+
+//this thing for custom cell made
 import UIKit
 
 class CharacterCell: UITableViewCell {
